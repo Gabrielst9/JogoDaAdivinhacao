@@ -88,7 +88,7 @@ namespace JogoDaAdivinhacaoConsoleApp
         private static int SorteandoNumero()
         {
             Random rnd = new Random();
-            int numeroSorteado = rnd.Next(1, 20);
+            int numeroSorteado = rnd.Next(1, 21);
             return numeroSorteado;
         }
         #endregion
